@@ -11,6 +11,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/modules/assertion/assertion.msd" />
+      <modulePath path="${project}/modules/enums/enums.msd" />
     </projectModules>
     <genConfs />
   </component>
