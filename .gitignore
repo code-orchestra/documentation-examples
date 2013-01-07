@@ -3,7 +3,6 @@ source_gen/
 source_gen.caches/
 classes_gen/
 *.iws
-*.mpr
 *.zip
 *.log
 .DS_Store
