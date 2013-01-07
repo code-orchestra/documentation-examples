@@ -9,7 +9,9 @@
     <environmentLibrary libraryReference="3849ec0a-97b3-4a50-8e3c-92d2066b6599(playerglobal_swc)" implementationReference="d2f2dcff-810f-4fab-957f-72350eb5b4a4(jooflash)" environment="HTML5" />
   </component>
   <component name="MPSProject">
-    <projectModules />
+    <projectModules>
+      <modulePath path="${project}/modules/assertion/assertion.msd" />
+    </projectModules>
     <genConfs />
   </component>
   <component name="ProjectModuleManager">
