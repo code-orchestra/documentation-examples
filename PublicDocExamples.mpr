@@ -13,6 +13,7 @@
       <modulePath path="${project}/modules/assertion/assertion.msd" />
       <modulePath path="${project}/modules/enums/enums.msd" />
       <modulePath path="${project}/modules/extensionMethods/extensionMethods.msd" />
+      <modulePath path="${project}/modules/logging/logging.msd" />
     </projectModules>
     <genConfs />
   </component>
