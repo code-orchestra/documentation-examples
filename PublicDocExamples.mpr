@@ -21,6 +21,7 @@
       <modulePath path="${project}/modules/tuples/tuples.msd" />
       <modulePath path="${project}/modules/objectBuilder/objectBuilder.msd" />
       <modulePath path="${project}/modules/eventsFlow/eventsFlow.msd" />
+      <modulePath path="${project}/modules/generics/generics.msd" />
     </projectModules>
     <genConfs />
   </component>
