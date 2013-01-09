@@ -15,6 +15,7 @@
       <modulePath path="${project}/modules/extensionMethods/extensionMethods.msd" />
       <modulePath path="${project}/modules/logging/logging.msd" />
       <modulePath path="${project}/modules/overloadedOperators/overloadedOperators.msd" />
+      <modulePath path="${project}/modules/closuresSyntax/closuresSyntax.msd" />
     </projectModules>
     <genConfs />
   </component>
