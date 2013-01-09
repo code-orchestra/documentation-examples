@@ -16,6 +16,7 @@
       <modulePath path="${project}/modules/logging/logging.msd" />
       <modulePath path="${project}/modules/overloadedOperators/overloadedOperators.msd" />
       <modulePath path="${project}/modules/closuresSyntax/closuresSyntax.msd" />
+      <modulePath path="${project}/modules/traits/traits.msd" />
     </projectModules>
     <genConfs />
   </component>
