@@ -17,6 +17,7 @@
       <modulePath path="${project}/modules/overloadedOperators/overloadedOperators.msd" />
       <modulePath path="${project}/modules/closuresSyntax/closuresSyntax.msd" />
       <modulePath path="${project}/modules/traits/traits.msd" />
+      <modulePath path="${project}/modules/smartVariables/smartVariables.msd" />
     </projectModules>
     <genConfs />
   </component>
