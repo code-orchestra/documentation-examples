@@ -14,6 +14,7 @@
       <modulePath path="${project}/modules/enums/enums.msd" />
       <modulePath path="${project}/modules/extensionMethods/extensionMethods.msd" />
       <modulePath path="${project}/modules/logging/logging.msd" />
+      <modulePath path="${project}/modules/overloadedOperators/overloadedOperators.msd" />
     </projectModules>
     <genConfs />
   </component>
