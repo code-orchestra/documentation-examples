@@ -19,6 +19,7 @@
       <modulePath path="${project}/modules/traits/traits.msd" />
       <modulePath path="${project}/modules/smartVariables/smartVariables.msd" />
       <modulePath path="${project}/modules/tuples/tuples.msd" />
+      <modulePath path="${project}/modules/objectBuilder/objectBuilder.msd" />
     </projectModules>
     <genConfs />
   </component>
