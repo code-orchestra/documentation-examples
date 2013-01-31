@@ -916,7 +916,16 @@
     </node>
     <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="5431551099288353117">
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="5431551099288353118">
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="5431551099288353119" />
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="1009691951497477642">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="1009691951497477643">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="1009691951497477644">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="1009691951497477645">
+                <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="5431551099288353125" resolveInfo="flow1" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="5431551099288353124" />
     </node>
