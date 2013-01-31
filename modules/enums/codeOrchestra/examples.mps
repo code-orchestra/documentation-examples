@@ -50,6 +50,25 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5332365952722493138">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5332365952722493139">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="5332365952722493140">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="jqm3.LogValuesDirective" typeId="jqm3.2782148203733315347" id="5332365952722493143">
+                <node role="valueTokens" roleId="jqm3.2782148203733543507" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="5332365952722493147">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5332365952722493145">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="5332365952722493146">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641759" resolveInfo="myEnum" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="5332365952722493151">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="k2ls.3530315819920811407" resolveInfo="index" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="269389252612641875">
           <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="269389252612641876">
             <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="269389252612641877">
@@ -95,6 +114,32 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1729100751988013976" resolveInfo="DIAMONDS" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5332365952722479211">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5332365952722479212">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="5332365952722479213">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="5332365952722479221">
+                <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="5332365952722479216">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641676" resolveInfo="Cardsuit" />
+                </node>
+                <node role="operation" roleId="3vt2.8480212669356024585" type="ug4l.EnumNamesOpearation" typeId="ug4l.7774020833308274761" id="5332365952722479225" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5332365952722479227">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5332365952722479228">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="5332365952722479229">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="5332365952722479233">
+                <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="5332365952722479232">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641676" resolveInfo="Cardsuit" />
+                </node>
+                <node role="operation" roleId="3vt2.8480212669356024585" type="ug4l.EnumValuesOpearation" typeId="ug4l.3530315819920811419" id="5332365952722479237" />
               </node>
             </node>
           </node>
