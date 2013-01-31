@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="eventsFlow" uuid="3f0a0525-6874-49d9-84ff-e681c47777d0" compileInMPS="true" outputTypeIndex="0" useDefaultSDKConfiguration="true" useCustomSDKConfiguration="false" mainClassNodeId="8653802882840306967" mainClassModelUID="r:57b2e582-de08-4ed8-b3ae-c972ddc055c4(codeOrchestra.examples)" outputFileName="eventsFlow.swf" inheritProjectOutputPath="true" playerVersion="11.5.0" useFrameworkAsRSL="false" checkModels="false" deleteUnusedMembers="false" deleteWhitespace="false" includeAllRoots="false" includeResources="false" localeOptions="en_US">
+<solution name="eventsFlow" uuid="3f0a0525-6874-49d9-84ff-e681c47777d0" compileInMPS="true" outputTypeIndex="0" useDefaultSDKConfiguration="true" useCustomSDKConfiguration="false" mainClassNodeId="5431551099288345413" mainClassModelUID="r:57b2e582-de08-4ed8-b3ae-c972ddc055c4(codeOrchestra.examples)" outputFileName="eventsFlow.swf" inheritProjectOutputPath="true" playerVersion="11.5.0" useFrameworkAsRSL="false" checkModels="false" deleteUnusedMembers="false" deleteWhitespace="false" includeAllRoots="false" includeResources="false" localeOptions="en_US">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
