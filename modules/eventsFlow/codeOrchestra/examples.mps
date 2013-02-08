@@ -184,7 +184,7 @@
             <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="5431551099288345209">
               <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
               <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="5431551099288345210">
-                <property name="value" nameId="3vt2.3383382943159949640" value="key pressed with ctrl modifier" />
+                <property name="value" nameId="3vt2.3383382943159949640" value="key 'ctrl' pressed" />
               </node>
             </node>
           </node>
