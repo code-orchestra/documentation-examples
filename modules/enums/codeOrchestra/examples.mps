@@ -100,19 +100,33 @@
     </node>
     <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="269389252612641668">
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="269389252612641669">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="9126925386388908972">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="9126925386388908973">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="9126925386388908974">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="9126925386388908975">
+                <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641754" resolveInfo="enumInfo" />
+                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="9126925386388908980">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="9126925386388908979">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641676" resolveInfo="Cardsuit" />
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="ug4l.EnumConstantReferenceOperation" typeId="ug4l.2136186081531858779" id="9126925386388908984">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1729100751988013972" resolveInfo="SPADES" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="1729100751988013983">
           <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="1729100751988013984">
             <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="1729100751988013985">
               <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="1729100751988013986">
                 <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
                 <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641754" resolveInfo="enumInfo" />
-                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="1729100751988013991">
-                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="1729100751988013990">
-                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="269389252612641676" resolveInfo="Cardsuit" />
-                  </node>
-                  <node role="operation" roleId="3vt2.8480212669356024585" type="ug4l.EnumConstantReferenceOperation" typeId="ug4l.2136186081531858779" id="1729100751988013995">
-                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1729100751988013976" resolveInfo="DIAMONDS" />
-                  </node>
+                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="ug4l.EnumCompactReference" typeId="ug4l.3990231834537491724" id="9126925386388908970">
+                  <link role="enumClass" roleId="ug4l.1733508145887014729" targetNodeId="269389252612641676" resolveInfo="Cardsuit" />
+                  <link role="enumConstantDeclaration" roleId="ug4l.3990231834537491725" targetNodeId="1729100751988013976" resolveInfo="DIAMONDS" />
                 </node>
               </node>
             </node>
@@ -161,11 +175,31 @@
       <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="1729100751988013973">
         <property name="value" nameId="3vt2.1241004569844" value="13" />
       </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="9126925386388908956">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="k2ls.3990231834537443808" resolveInfo="CompactPresentation" />
+        <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="9126925386388908957">
+          <property name="dynamicName" nameId="3vt2.7839223977444447255" value="nam" />
+          <link role="key" roleId="3vt2.1624755644612063051" targetNodeId="k2ls.3990231834537443810" resolveInfo="name" />
+          <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="9126925386388908958">
+            <property name="value" nameId="3vt2.3383382943159949640" value="SPADES" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="enumConstant" roleId="ug4l.2136186081531944889" type="ug4l.EnumConstantDeclaration" typeId="ug4l.2136186081531858773" id="1729100751988013974">
       <property name="name" nameId="tpck.1169194664001" value="CLUBS" />
       <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="1729100751988013975">
         <property name="value" nameId="3vt2.1241004569844" value="13" />
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="9126925386388908959">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="k2ls.3990231834537443808" resolveInfo="CompactPresentation" />
+        <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="9126925386388908960">
+          <property name="dynamicName" nameId="3vt2.7839223977444447255" value="nam" />
+          <link role="key" roleId="3vt2.1624755644612063051" targetNodeId="k2ls.3990231834537443810" resolveInfo="name" />
+          <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="9126925386388908961">
+            <property name="value" nameId="3vt2.3383382943159949640" value="CLUBS" />
+          </node>
+        </node>
       </node>
     </node>
     <node role="enumConstant" roleId="ug4l.2136186081531944889" type="ug4l.EnumConstantDeclaration" typeId="ug4l.2136186081531858773" id="1729100751988013976">
@@ -173,13 +207,29 @@
       <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="1729100751988013978">
         <property name="value" nameId="3vt2.1241004569844" value="13" />
       </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="9126925386388908962">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="k2ls.3990231834537443808" resolveInfo="CompactPresentation" />
+        <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="9126925386388908963">
+          <property name="dynamicName" nameId="3vt2.7839223977444447255" value="nam" />
+          <link role="key" roleId="3vt2.1624755644612063051" targetNodeId="k2ls.3990231834537443810" resolveInfo="name" />
+          <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="9126925386388908964">
+            <property name="value" nameId="3vt2.3383382943159949640" value="DIAMONDS" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="enumConstant" roleId="ug4l.2136186081531944889" type="ug4l.EnumConstantDeclaration" typeId="ug4l.2136186081531858773" id="1729100751988013977">
       <property name="name" nameId="tpck.1169194664001" value="HEARTS" />
-      <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="1729100751988013979">
-        <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="1729100751988013980">
-          <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="1729100751988013981">
-            <property name="value" nameId="3vt2.1241004569844" value="13" />
+      <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="1729100751988013981">
+        <property name="value" nameId="3vt2.1241004569844" value="13" />
+      </node>
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="9126925386388908965">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="k2ls.3990231834537443808" resolveInfo="CompactPresentation" />
+        <node role="value" roleId="3vt2.1624755644612062294" type="3vt2.AnnotationPropertyValue" typeId="3vt2.1630592743144475978" id="9126925386388908966">
+          <property name="dynamicName" nameId="3vt2.7839223977444447255" value="nam" />
+          <link role="key" roleId="3vt2.1624755644612063051" targetNodeId="k2ls.3990231834537443810" resolveInfo="name" />
+          <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="9126925386388908967">
+            <property name="value" nameId="3vt2.3383382943159949640" value="HEARTS" />
           </node>
         </node>
       </node>
