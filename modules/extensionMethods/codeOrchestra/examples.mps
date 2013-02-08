@@ -26,6 +26,10 @@
       <property name="sourceModule" value="74de7904-fe40-4837-bc01-4eeba737badb" />
       <property name="name" nameId="tpck.1169194664001" value="AdditionalStringMethods" />
     </node>
+    <node type="hmnr.ExtensionMethodsDeclaration" typeId="hmnr.4232005054748958012" id="9126925386388922805">
+      <property name="sourceModule" value="74de7904-fe40-4837-bc01-4eeba737badb" />
+      <property name="name" nameId="tpck.1169194664001" value="AdditionalDOMethods" />
+    </node>
   </roots>
   <root id="1729100751988016452">
     <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="1729100751988016453">
@@ -148,6 +152,36 @@
             <property name="value" nameId="3vt2.3109959289237805335" value="false" />
           </node>
         </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="9126925386388922859" />
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.LocalVariableDeclarationStatement" typeId="3vt2.4231115217454705792" id="9126925386388922861">
+          <property name="isVerticalLayout" nameId="3vt2.8284300288290314122" value="true" />
+          <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="9126925386388922862">
+            <property name="name" nameId="tpck.1169194664001" value="sprite" />
+            <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="9126925386388922897">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~Sprite" resolveInfo="Sprite" />
+            </node>
+            <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.GenericNewExpression" typeId="3vt2.1630592743144645284" id="9126925386388922866">
+              <node role="creator" roleId="3vt2.1630592743144645285" type="3vt2.ClassCreator" typeId="3vt2.1630592743144645279" id="9126925386388922867">
+                <link role="classConcept" roleId="3vt2.2024767275314988180" targetNodeId="jivu.~Sprite" resolveInfo="Sprite" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="9126925386388922930">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="9126925386388922931">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="9126925386388922939">
+              <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="9126925386388922932">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="9126925386388922933">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9126925386388922862" resolveInfo="sprite" />
+                </node>
+              </node>
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="9126925386388922943">
+                <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9126925386388922815" resolveInfo="removeAllChildren" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="1729100751988016460" />
     </node>
@@ -207,6 +241,64 @@
       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
     </node>
     <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="1729100751988016467">
+      <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
+    </node>
+  </root>
+  <root id="9126925386388922805">
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="9126925386388922815">
+      <property name="name" nameId="tpck.1169194664001" value="removeAllChildren" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="9126925386388922816">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.WhileStatement" typeId="3vt2.1630592743144675233" id="9126925386388922821">
+          <node role="condition" roleId="3vt2.1630592743144675235" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="9126925386388922822">
+            <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="9126925386388922823">
+              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.GreaterThanExpression" typeId="3vt2.1630592743144887943" id="9126925386388922834">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="9126925386388922837">
+                  <property name="value" nameId="3vt2.1241004569844" value="0" />
+                </node>
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="9126925386388922829">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ThisExpression" typeId="3vt2.1237741945198" id="9126925386388922828" />
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="9126925386388922833">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~DisplayObjectContainer_numChildren_get" resolveInfo="numChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="9126925386388922825">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="9126925386388922847">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="9126925386388922848">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="9126925386388922850">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ThisExpression" typeId="3vt2.1237741945198" id="9126925386388922849" />
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="9126925386388922854">
+                    <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~DisplayObjectContainer_removeChildAt" resolveInfo="removeChildAt" />
+                    <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="9126925386388922858">
+                      <property name="value" nameId="3vt2.1241004569844" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="9126925386388922818" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="9126925386388922819" />
+      <node role="annotation" roleId="3vt2.455913868588249145" type="3vt2.AnnotationInstance" typeId="3vt2.1630592743144475974" id="9126925386388922881">
+        <link role="annotation" roleId="3vt2.1624755644612062310" targetNodeId="c0di.4131090024143472274" resolveInfo="InheritExtensionMethod" />
+      </node>
+    </node>
+    <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="9126925386388922806">
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="9126925386388922807">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="9126925386388922808" />
+      </node>
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="9126925386388922813" />
+    </node>
+    <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="9126925386388922809" />
+    <node role="superclass" roleId="3vt2.1239652892079" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="9126925386388922812">
+      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~DisplayObjectContainer" resolveInfo="DisplayObjectContainer" />
+    </node>
+    <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="9126925386388922811">
       <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
     </node>
   </root>
