@@ -1030,7 +1030,7 @@
       <property name="name" nameId="tpck.1169194664001" value="millionaire" />
       <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="8653802882840307001">
         <node role="statement" roleId="3vt2.1237648447990" type="wv2x.ExpireStatement" typeId="wv2x.8530922048463287054" id="8653802882840337194">
-          <property name="time" nameId="wv2x.3683294265820515991" value="10" />
+          <property name="time" nameId="wv2x.3683294265820515991" value="10000" />
           <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="8653802882840337195">
             <node role="statement" roleId="3vt2.1237648447990" type="wv2x.OrStatement" typeId="wv2x.8530922048462925298" id="8653802882840337164">
               <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="8653802882840337165">
