@@ -7,7 +7,7 @@
     <source path="${solution_descriptor}/source" />
   </sourcePath>
   <dependencies>
-    <dependency reexport="false" exclude="false">00000000-1287-8cd8-0000-000055815fb8(Project_assets)</dependency>
+    <dependency reexport="false" exclude="false">Project_assets</dependency>
     <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
   </dependencies>
   <usedLanguages>
