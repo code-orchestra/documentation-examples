@@ -103,22 +103,44 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="3295240751451089131" />
-        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3295240751451091310">
-          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3295240751451091311">
-            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="3295240751451091312">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="5512620327865407270" />
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5512620327865407272">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5512620327865407273">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="5512620327865407274">
               <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
-              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3295240751451091314">
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="3295240751451091315">
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5512620327865407276">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="5512620327865407277">
                   <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3295240751451089119" resolveInfo="a" />
                 </node>
               </node>
-              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3295240751451091317">
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="3295240751451091318">
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5512620327865407279">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="5512620327865407280">
                   <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3295240751451089126" resolveInfo="b" />
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="5512620327865407260">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="5512620327865407261">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5512620327865407262">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="5512620327865407263">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3295240751451089119" resolveInfo="a" />
+              </node>
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jqm3.LogAnnotation" typeId="jqm3.6442196390395724006" id="5512620327865407268" />
+            </node>
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="5512620327865407265">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="5512620327865407266">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3295240751451089126" resolveInfo="b" />
+              </node>
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jqm3.LogAnnotation" typeId="jqm3.6442196390395724006" id="5512620327865407267" />
+            </node>
+          </node>
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jqm3.LogDialogAnnotation" typeId="jqm3.1324290336160869085" id="5512620327865407269">
+            <property name="severity" nameId="jqm3.1324290336160869088" value="info" />
+            <property name="message" nameId="jqm3.1324290336160869090" value="Annotation message" />
+            <property name="indent" nameId="jqm3.4183557411673060343" value="0" />
+            <property name="messageId" nameId="jqm3.4183557411673060344" value="1" />
           </node>
         </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3295240751451091321">
