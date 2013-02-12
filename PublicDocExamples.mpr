@@ -23,6 +23,7 @@
       <modulePath path="${project}/modules/eventsFlow/eventsFlow.msd" />
       <modulePath path="${project}/modules/generics/generics.msd" />
       <modulePath path="${project}/modules/overloadedMethods/overloadedMethods.msd" />
+      <modulePath path="${project}/modules/nullable/nullable.msd" />
     </projectModules>
     <genConfs />
   </component>
