@@ -21,6 +21,10 @@
       <property name="sourceModule" value="86e6c0dc-4f37-49b5-b37e-1b33aedaf180" />
       <property name="name" nameId="tpck.1169194664001" value="AssertionExample" />
     </node>
+    <node type="3vt2.ClassConcept" typeId="3vt2.1237644023270" id="3029736166669221315">
+      <property name="sourceModule" value="86e6c0dc-4f37-49b5-b37e-1b33aedaf180" />
+      <property name="name" nameId="tpck.1169194664001" value="MethodsExample" />
+    </node>
   </roots>
   <root id="3305241602529856003">
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3305241602529856012">
@@ -417,6 +421,106 @@
       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~Sprite" resolveInfo="Sprite" />
     </node>
     <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3305241602529856009">
+      <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
+    </node>
+  </root>
+  <root id="3029736166669221315">
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3029736166669221324">
+      <property name="name" nameId="tpck.1169194664001" value="method1" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3029736166669221325">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3029736166669223497">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3029736166669223498">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="3029736166669223499">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="3029736166669223513">
+                <property name="value" nameId="3vt2.3383382943159949640" value="method 1" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3029736166669221327" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3029736166669221328" />
+    </node>
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3029736166669223503">
+      <property name="name" nameId="tpck.1169194664001" value="method2" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3029736166669223504">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3029736166669223508">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3029736166669223509">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="3029736166669223510">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="3029736166669223511">
+                <property name="value" nameId="3vt2.3383382943159949640" value="method 2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3029736166669223506" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3029736166669223507" />
+    </node>
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="3029736166669223514">
+      <property name="name" nameId="tpck.1169194664001" value="method3" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3029736166669223515">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3029736166669223519">
+          <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3029736166669223520">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="jqm3.LogExpression" typeId="jqm3.3263609243781816981" id="3029736166669223521">
+              <property name="severity" nameId="jqm3.3263609243781816982" value="trace" />
+              <node role="expression" roleId="jqm3.3263609243781816984" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="3029736166669223527">
+                <property name="value" nameId="3vt2.3383382943159949640" value="method 3" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3029736166669223517" />
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.VoidType" typeId="3vt2.1237649329996" id="3029736166669223518" />
+    </node>
+    <node role="constructor" roleId="3vt2.1239652818186" type="3vt2.ConstructorDeclaration" typeId="3vt2.1237644154612" id="3029736166669221316">
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3029736166669221317">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ForeachStatement" typeId="3vt2.1630592743144675248" id="3029736166669223546">
+          <node role="initializer" roleId="3vt2.8353046031964639921" type="3vt2.ForInBinding_VariableDeclaration" typeId="3vt2.8353046031964639938" id="3029736166669223547">
+            <node role="variableDeclaration" roleId="3vt2.8353046031964640005" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="3029736166669223548">
+              <property name="name" nameId="tpck.1169194664001" value="m" />
+              <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3029736166669223560">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+              </node>
+            </node>
+          </node>
+          <node role="iterable" roleId="3vt2.1630592743144675251" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3029736166669223550">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="3029736166669223555">
+              <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="3029736166669223554">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3029736166669221315" resolveInfo="MethodsExample" />
+              </node>
+              <node role="operation" roleId="3vt2.8480212669356024585" type="nbmv.MethodsExpression" typeId="nbmv.979763850335132308" id="3029736166669223559" />
+            </node>
+          </node>
+          <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="3029736166669223552">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="3029736166669223561">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="3029736166669223562">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.FunctionCall" typeId="3vt2.1630592743144641688" id="3029736166669223579">
+                  <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                  <node role="expression" roleId="3vt2.1630592743144641689" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="3029736166669223573">
+                    <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="3029736166669223576">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="3029736166669223577">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3029736166669223548" resolveInfo="m" />
+                      </node>
+                    </node>
+                    <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.ThisExpression" typeId="3vt2.1237741945198" id="3029736166669223563" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3029736166669221323" />
+    </node>
+    <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PublicVisibility" typeId="3vt2.1240402865704" id="3029736166669221319" />
+    <node role="superclass" roleId="3vt2.1239652892079" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="3029736166669221322">
+      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="jivu.~Sprite" resolveInfo="Sprite" />
+    </node>
+    <node role="implementedInterface" roleId="3vt2.1239652910735" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="3029736166669221321">
       <property name="isAllowEmpty" nameId="3vt2.169389546812107517" value="true" />
     </node>
   </root>
